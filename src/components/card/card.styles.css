@@ -1,0 +1,14 @@
+.monster-card {
+  background: rgb(124, 182, 236);
+  height: auto;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.monster-card:hover {
+  transform: scale(1.05);
+}
+.monster-card:active {
+  transform: scale(1);
+}
